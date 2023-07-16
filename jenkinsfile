@@ -1,0 +1,16 @@
+Pipeline {
+    agent any
+
+    Stages{
+        stage('first'){
+            steps{
+                echo "hellomuthu" 
+            } 
+        }
+        stage("second "){
+            steps {
+                echo "success"
+            }
+        }
+    }
+}
