@@ -9,7 +9,7 @@ Pipeline {
         }
         stage("second "){
             steps {
-                echo "success"
+                echo "sub"
             }
         }
     }
